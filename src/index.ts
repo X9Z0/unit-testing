@@ -39,7 +39,9 @@ app.post("/sum", async (req, res) => {
     id: response.id,
   });
 });
-
+// POST /string
+// input : string, number
+// output: string
 app.post("/string", async (req, res) => {
   const parseResponse = stringInput.safeParse(req.body);
 
